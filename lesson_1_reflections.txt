@@ -1,0 +1,56 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+- speed - did not have to compare all characters in the file
+- accuracy - did not miss any changes (provided able to find all changes on each line identified)
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+- could easily find what worked before, so that coudl identify what you did wrong
+- could go back a re-use code that you used previously but since deleted
+- could use code from other projects that I worked on
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like do you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+
+pros
+- size of commit can be set to be a logical unit of worked
+- can ensure that code for each commit always compiles
+
+cons
+- may miss some changes if not staying on top of the commit process
+- code may not compile
+- hard to find out what changed for a particular feature or bug
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+
+- save files that are related to each other
+- this means that all components of a feature or bug fix are consistent
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log
+- shows all the commits with the commit comments
+
+git diff
+- allows you to compare the contents of 2 different commits
+- git diff <new commit id> <old commit id>
+- git diff with no arguments compares current versions of the files to the latest commit
+
+
+How might using version control make you more confident to make changes that could break something?
+
+- to revert to a previous version, use "git checkout <commit id>"
+- that means can always roll back changes to any earlier commit
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+- changes to C++ and/or Python code
+
+
+
