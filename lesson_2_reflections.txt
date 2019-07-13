@@ -13,5 +13,9 @@ What value do you think it offers?
 - value is to track what is available to be committed
 
 
-- change in text within file
+How can you use the staging area to make sure you have one commit per logical change?
+
+- move changes from the working directory to the staging area in blocks corresponding 
+  to a logical change
+- commit after the files for each logical change have been added to the staging area
 
