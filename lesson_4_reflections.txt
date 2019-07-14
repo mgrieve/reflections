@@ -1,1 +1,5 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+- when you want to be able to send updates from a different computer than the original repsoitory on on
+- when you want other individuals to be able to make changes (from their computers)
+- when you want other individuals to be able to view and/or download content from this repository
