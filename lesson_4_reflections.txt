@@ -3,3 +3,8 @@ When would you want to create a remote repository rather than keeping all your w
 - when you want to be able to send updates from a different computer than the original repsoitory on on
 - when you want other individuals to be able to make changes (from their computers)
 - when you want other individuals to be able to view and/or download content from this repository
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+- other people may be making changes, and I don't want to get suprised by unexpected changes
