@@ -25,3 +25,11 @@ What is the benefit of having a copy of the last known state of the remote store
 
 - Can compare your code with code that is the remote repository
 - Can resolve merging issues locally before pushing them back to the remote
+
+
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+
+- how? would have to send revised source files by email
+- easier - would not have to issue any git commands
+- harder - a lot of overhead to commuicate what changes were made
+- harder - would have no automatic merge ability
